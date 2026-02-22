@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/Design sem nome (4).png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============--> 
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============--> 
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Sweet Noel - Cinnamon Rolls</title>
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/img/Design sem nome (4).png" alt="" class="nav__logo-img">
+                Sweet Noel
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="SaibaMais.html" class="nav__link">Sobre</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="ComprarAgora.html" class="nav__link">Produtos</a>
+                    </li>
+
+                    <a href="Suporte.html" class="button button--ghost">Suporte</a>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <img src="./assets/img/jingle-bells.png" alt="" class="nav__img">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== PRODUTO SWEET NOEL ===============-->
+<section class="section about" id="cart-page">
+    <div class="about__container container grid" style="justify-content:center; text-align:center;">
+
+        <!--================ PRODUTO =================-->
+        <div class="about__data" style="max-width:850px; margin:auto;">
+
+            <h2 class="section__title about__title">
+                • Cinnamon Rolls do Noel
+            </h2>
+
+            <p class="about__description">
+                Os famosos <strong>Cinnamon Rolls do Noel</strong> são uma das receitas mais queridas da Vila do Trenó.  
+                Diz a lenda que foram criados quando os duendes estavam tentando aquecer a oficina em uma noite 
+                de frio extremo. Para alegrar o ambiente, um duende chamado <strong>Finn</strong> misturou canela, 
+                açúcar cristal das neves e massa doce preparada pela Mamãe Noel.
+                <br><br>
+                Assim que os rolinhos douraram no forno, uma nuvem quente e perfumada tomou conta da oficina, 
+                enchendo todos de alegria e energia para continuar a produção dos brinquedos.  
+                <br><br>
+                Cada Cinnamon Roll da Sweet Noel traz esse mesmo aroma acolhedor, capaz de transformar qualquer dia 
+                comum em um momento mágico. 
+            </p>
+        </div>
+
+        <!--================ IMAGEM =================-->
+        <img src="./assets/img/Design sem nome (5).png"
+             alt="Cinnamon Rolls do Noel" 
+             class="about__img"
+             style="margin: 0 auto; display:block; max-width:280px;">
+
+        <!--================ CARRINHO =================-->
+        <div class="about__data" 
+             style="text-align:center; margin:auto; max-width:600px; padding-top:20px;">
+
+            <h3 class="section__subtitle" style="font-size:1.3rem; margin-bottom:15px;">
+                Detalhes do Pedido
+            </h3>
+
+            <p class="about__description" style="margin-bottom:20px;">
+                <strong>Cinnamon Rolls do Noel</strong><br>
+                Porção: 6 unidades<br>
+                Preço unitário: <strong>R$ 14,99</strong>
+            </p>
+
+            <!-- QUANTIDADE -->
+            <div style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom:20px;">
+                <button class="button" id="minus" style="padding:6px 14px;">-</button>
+
+                <span id="quantity" style="font-size:1.3rem; font-weight:bold;">1</span>
+
+                <button class="button" id="plus" style="padding:6px 14px;">+</button>
+            </div>
+
+            <!-- TOTAL -->
+            <p style="font-size:1.3rem; font-weight:bold; margin-bottom:20px;">
+                Total: R$ <span id="total">14,99</span>
+            </p>
+
+            <button id="addToCart" class="button" style="padding:12px 22px;">
+                Adicionar ao Carrinho
+            </button>
+
+        </div>
+    </div>
+</section>
+
+    <!--=============== OUR NEWSLETTER ===============-->
+    <section class="section newsletter">
+        <div class="newsletter__container container">
+            <h2 class="section__title">Nosso Informativo</h2>
+            <p class="newsletter__description">
+                Receba novidades, receitas e promoções diretamente no seu e-mail!
+            </p>
+            <form class="newsletter__form">
+                <input type="email" placeholder="E-mail" class="newsletter__input">
+                <button class="button">Inscrever</button>
+            </form>
+        </div>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="" class="footer__logo">
+                    <img src="./assets/img/Design sem nome (4).png" alt="" class="footer__logo-img">
+                    Sweet Noel
+                </a>
+                
+                <p class="footer__description">Aproveite a magia do Natal o ano inteiro.</p>
+
+                <div class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Sobre</h3>
+
+                <ul class="footer__links">
+                    <li><a href="SaibaMais.html" class="footer__link">Nossa História</a></li>
+                    <li><a href="ComprarAgora.html" class="footer__link">Produtos</a></li>
+                    <li><a href="ComprarAgora.html" class="footer__link">Novidades</a></li>
+                </ul>                       
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Serviços</h3>
+
+                <ul class="footer__links">
+                    <li><a href="ComprarAgora.html" class="footer__link">Preços</a></li>
+                    <li><a href="ComprarAgora.html" class="footer__link">Descontos</a></li>
+                    <li><a href="ComprarAgora.html" class="footer__link">Entrega</a></li>
+                </ul>                       
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Mais</h3>
+
+                <ul class="footer__links">
+                    <li><a href="SaibaMais.html" class="footer__link">Blog</a></li>
+                    <li><a href="SaibaMais.html" class="footer__link">Nossa Missão</a></li>
+                </ul>                       
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; Sweet Noel. Todos os direitos reservados</span>
+        <img src="./assets/img/mistletoe.png" alt="" class="footer__img-one">
+        <img src="./assets/img/mistletoe1.png" alt="" class="footer__img-two">
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/script.js"></script>
+
+    <!--=============== SCRIPT DO CARRINHO ===============-->
+    <script>
+        let quantity = 1;
+        const price = 14.99;
+
+        const quantityEl = document.getElementById("quantity");
+        const totalEl = document.getElementById("total");
+
+        function updateCart() {
+            quantityEl.textContent = quantity;
+            totalEl.textContent = (quantity * price).toFixed(2).replace(".", ",");
+        }
+
+        document.getElementById("plus").addEventListener("click", () => {
+            quantity++;
+            updateCart();
+        });
+
+        document.getElementById("minus").addEventListener("click", () => {
+            if (quantity > 1) {
+                quantity--;
+                updateCart();
+            }
+        });
+
+        document.getElementById("addToCart").addEventListener("click", () => {
+            const total = quantity * price;
+
+            const cart = {
+                produto: "Cinnamon Rolls do Noel",
+                quantidade: quantity,
+                preco_unitario: price,
+                total: total
+            };
+
+            localStorage.setItem("carrinhoSweetNoel", JSON.stringify(cart));
+
+            window.location.href = "Carrinho.html";
+        });
+    </script>
+
+</body>
+</html>

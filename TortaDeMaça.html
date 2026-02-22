@@ -1,0 +1,260 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/Design sem nome (4).png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+        <title>Sweet Noel - Torta de Maçã</title>
+    </head>
+
+    <body>
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img/Design sem nome (4).png" alt="" class="nav__logo-img">
+                    Sweet Noel
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="SaibaMais.html" class="nav__link">Sobre</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="ComprarAgora.html" class="nav__link">Produtos</a>
+                        </li>
+
+                        <a href="Suporte.html" class="button button--ghost">Support</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="./assets/img/jingle-bells.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== SWEET NOEL - PÁGINA DO PRODUTO ===============-->
+<section class="section about" id="cart-page">
+    <div class="about__container container grid" style="justify-content:center; text-align:center;">
+
+        <!--================ PRODUTO =================-->
+        <div class="about__data" style="max-width:850px; margin:auto;">
+
+            <h2 class="section__title about__title">
+                • Torta de Maçã Nevosa
+            </h2>
+
+            <p class="about__description">
+                A <strong>Torta de Maçã Nevosa</strong> é um dos doces mais aconchegantes do catálogo da Sweet Noel.  
+                Segundo as histórias da Oficina do Papai Noel, essa receita nasceu quando uma tempestade de neve 
+                atingiu o Pomar do Norte, congelando as maçãs — mas preservando nelas um perfume adocicado único.  
+                <br><br>
+
+                Diz a lenda que a Mamãe Noel aqueceu cuidadosamente as frutas e misturou um toque de canela mágica, 
+                criando um aroma capaz de transformar qualquer noite fria em um abraço natalino.  
+                <br><br>
+
+                Feita com massa dourada, maçãs selecionadas e especiarias que aquecem o coração,  
+                a Torta de Maçã Nevosa é perfeita para quem ama o sabor clássico do Natal. 🍎✨
+            </p>
+        </div>
+
+        <!--================ IMAGEM =================-->
+        <img src="./assets/img/Design sem nome (3).png"
+             alt="Torta de Maçã Nevosa" 
+             class="about__img"
+             style="margin: 0 auto; display:block; max-width:280px;">
+
+        <!--================ CARRINHO =================-->
+        <div class="about__data" 
+             style="text-align:center; margin:auto; max-width:600px; padding-top:20px;">
+
+            <h3 class="section__subtitle" style="font-size:1.3rem; margin-bottom:15px;">
+                Detalhes do Pedido
+            </h3>
+
+            <p class="about__description" style="margin-bottom:20px;">
+                <strong>Torta de Maçã Nevosa</strong><br>
+                Peso: 1kg<br>
+                Preço unitário: <strong>R$ 29,99</strong>
+            </p>
+
+            <!-- QUANTIDADE -->
+            <div style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom:20px;">
+                <button class="button" id="minus" style="padding:6px 14px;">-</button>
+
+                <span id="quantity" style="font-size:1.3rem; font-weight:bold;">1</span>
+
+                <button class="button" id="plus" style="padding:6px 14px;">+</button>
+            </div>
+
+            <!-- TOTAL -->
+            <p style="font-size:1.3rem; font-weight:bold; margin-bottom:20px;">
+                Total: R$ <span id="total">29,99</span>
+            </p>
+
+            <button id="addToCart" class="button" style="padding:12px 22px;">
+                Adicionar ao Carrinho
+            </button>
+
+        </div>
+    </div>
+</section>
+
+        <!--=============== OUR NEWSLETTER ===============-->
+        <section class="section newsletter">
+            <div class="newsletter__container container">
+                <h2 class="section__title">Nosso Informativo</h2>
+                <p class="newsletter__description">
+                    Promovemos novos produtos e novas vendas.
+                    Direto para seu InBox
+                </p>
+                <form action="" class="newsletter__form">
+                    <input type="email" placeholder="E_mail" class="newsletter__input">
+                    <button class="button">Inscrever</button>
+                </form>
+            </div>
+        </section>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="" class="footer__logo">
+                        <img src="./assets/img/Design sem nome (4).png" alt="" class="footer__logo-img">
+                        Sweet Noel
+                    </a>
+                    
+                    <p class="footer__description">Aproveite a noite mais Feliz do ano</p>
+
+                    <div class="footer__social">
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Sobre</h3>
+
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Sobre nós</a></li>
+                        <li><a href="#" class="footer__link">Produtos</a></li>
+                        <li><a href="#" class="footer__link">News</a></li>
+                    </ul>                       
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nossos Serviços</h3>
+
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Preços</a></li>
+                        <li><a href="#" class="footer__link">Descontos</a></li>
+                        <li><a href="#" class="footer__link">Entrega</a></li>
+                    </ul>                       
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nossa Empresa</h3>
+
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Sobre nós</a></li>
+                        <li><a href="#" class="footer__link">Nossa missão</a></li>
+                    </ul>                       
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; Sweet Noel. Todos os direitos reservados</span>
+            <img src="./assets/img/mistletoe.png" alt="" class="footer__img-one">
+            <img src="./assets/img/mistletoe1.png" alt="" class="footer__img-two">
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="./assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/script.js"></script>
+
+        <!--=============== SCRIPT DO CARRINHO ===============-->
+        <script>
+            let quantity = 1;
+            const price = 29.99;
+
+            const quantityEl = document.getElementById("quantity");
+            const totalEl = document.getElementById("total");
+
+            function updateCart() {
+                quantityEl.textContent = quantity;
+                totalEl.textContent = (quantity * price).toFixed(2).replace(".", ",");
+            }
+
+            document.getElementById("plus").addEventListener("click", () => {
+                quantity++;
+                updateCart();
+            });
+
+            document.getElementById("minus").addEventListener("click", () => {
+                if (quantity > 1) {
+                    quantity--;
+                    updateCart();
+                }
+            });
+
+            document.getElementById("addToCart").addEventListener("click", () => {
+                const total = quantity * price;
+
+                const cart = {
+                    produto: "Torta de Maçã Nevosa",
+                    quantidade: quantity,
+                    preco_unitario: price,
+                    total: total
+                };
+
+                localStorage.setItem("carrinhoSweetNoel", JSON.stringify(cart));
+
+                window.location.href = "Carrinho.html";
+            });
+        </script>
+
+    </body>
+</html>
