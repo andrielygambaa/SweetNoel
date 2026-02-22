@@ -1,9 +1,22 @@
-# :santa: Site Responsivo Natalino 
+# 🎄 SweetNoel
 
-##  Site Natalino 
-- Desenvolvido em HTML, CSS e JavaScript.
-- Animações ao rolar.
-- Responsivo.
-- Interface de usuário bonita e agradável.
-##
-![natal](https://user-images.githubusercontent.com/83035443/214400911-556496ef-f4d4-4089-ac76-b8e7192de751.png)
+Bem-vindo ao repositório do site SweetNoel!
+
+SweetNoel é uma loja fictícia de Natal criada com o objetivo de apresentar um projeto web temático, com foco em design encantador, experiência do usuário e espírito natalino.
+
+## 🍪 Sobre a Loja
+A SweetNoel oferece:
+- Doces natalinos artesanais
+- Cestas personalizadas
+- Presentes temáticos
+- Decorações de Natal
+
+## 🎁 Objetivo do Projeto
+Este projeto foi desenvolvido para fins educacionais e portfólio, demonstrando habilidades em:
+- HTML
+- CSS
+- JavaScript
+- UX/UI Design
+
+## ✨ Autora
+Desenvolvido por Andriely Gamba
