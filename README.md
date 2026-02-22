@@ -15,7 +15,6 @@ A SweetNoel oferece:
 Este projeto foi desenvolvido para fins educacionais e portfólio, demonstrando habilidades em:
 - HTML
 - CSS
-- JavaScript
 - UX/UI Design
 
 ## ✨ Autora
